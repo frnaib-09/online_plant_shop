@@ -48,3 +48,18 @@ body {
     font-weight: 600;
     padding: 8px 0 4px;
 }
+
+#live-clock {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20241209/pngtree-wooden-podium-for-product-display-on-a-nature-background-with-a-image_16758594.jpg);
+    backdrop-filter: brightness(30%);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    font-size: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 3px #7a7a7a;
+}

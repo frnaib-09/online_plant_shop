@@ -42,17 +42,23 @@
     </header>
 
     <main>
-        <section id="contact">
-            <div class="container py-5 mt-5">
+        <section id="contact" class="my-5">
+            <div class="container py-5">
                 <h1 class="text-center py-2">Contact Us</h1>
                 <div class="row">
                     <form>
                         <label for="name">Your Name *</label>
-                        <input type="text" name="name" class="form-control w-100 my-3" required>
+                        <input type="text" name="name" id="name" class="form-control w-100 my-3" placeholder="John Doe">
+                        <span class="text-danger" id="nameError"></span><br>
+
                         <label for="email">Your E-mail *</label>
-                        <input type="email" name="email" class="form-control w-100 my-3" required>
+                        <input type="email" name="email" id="email" class="form-control w-100 my-3" placeholder="john.doe452@yandex.com">
+                        <span class="text-danger" id="emailError"></span><br>
+
                         <label for="msg">Your Queries</label>
-                        <textarea name="msg" id="message" class="form-control w-100 my-3" rows="5"></textarea>
+                        <textarea name="msg" id="message" class="form-control w-100 my-3" rows="5" placeholder="Lorem ipsum dolor sin..."></textarea>
+                        <span class="text-danger" id="messageError"></span><br>
+
                         <button class="submitbtn btn btn-primary w-100 my-3" type="submit">Submit</button>
                     </form>
                 </div>

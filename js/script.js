@@ -44,8 +44,10 @@ function checkInput() {
 submitbtn.addEventListener('click', function (e) {
     e.preventDefault();
 
-    if (checkInput()) {
+    if (!checkInput()) {
         alert('Please fill out the form correctly');
+    } else {
+        alert('Form Submitted Successfully');
     }
 });
 
